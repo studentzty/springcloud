@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date : 2019-11-22 16:50
  */
 @RestController
-@RequestMapping("/main")
+@RequestMapping("/slaver")
 public class HelloController {
     @Autowired
     DiscoveryClient discoveryClient;
